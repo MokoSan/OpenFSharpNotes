@@ -17,6 +17,7 @@ module ResilientFSharpInLinux
     9. minikube - bootstraps a kubernetes environment written in Go
     10. Include healthcheck APIs - http if possible
     11. Aware of target Runtime differences
+    12. github.com/ninjarobot/openfsharp-resilient
 *)
 
 [<EntryPoint>]
