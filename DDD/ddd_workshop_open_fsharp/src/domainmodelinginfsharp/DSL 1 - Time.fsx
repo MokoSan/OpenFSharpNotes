@@ -15,12 +15,12 @@ let example2 = getDate 1 Hour Hence
 *)
 
 // set up the vocabulary
-type DateScale = what??
-type DateDirection = what??
+type DateScale = Hour | Days 
+type DateDirection = Ago | Hence 
 
 // define a function that matches on the vocabulary
 let getDate (interval:int) (scale:DateScale) (direction:DateDirection) =
-    what??
+    let now = System.DateTime.Now
 
 
 // test some examples
